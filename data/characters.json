@@ -6,7 +6,7 @@
 	"species": "Human",
 	"type": "",
 	"gender": "Male",
-	"image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+	"location": "Earth (C-137)"
 	},
 	{
 	"id": 2,
@@ -15,7 +15,7 @@
 	"species": "Human",
 	"type": "",
 	"gender": "Male",
-	"image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+	"location": "Earth (C-137)"
 	},
 	{
 	"id": 3,
@@ -24,7 +24,7 @@
 	"species": "Human",
 	"type": "",
 	"gender": "Female",
-	"image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+	"location": "Earth (C-137)"
 	},
 	{
 	"id": 4,
@@ -33,7 +33,7 @@
 	"species": "Human",
 	"type": "",
 	"gender": "Female",
-	"image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+	"location": "Earth (C-137)"
 	},
 	{
 	"id": 5,
@@ -42,7 +42,7 @@
 	"species": "Human",
 	"type": "",
 	"gender": "Male",
-	"image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+	"location": "Earth (C-137)"
 	},
 	{
 	"id": 6,
@@ -51,6 +51,24 @@
 	"species": "Alien",
 	"type": "",
 	"gender": "Female",
-	"image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+	"location": "Abadango"
+	},
+	{
+	"id": 7,
+	"name": "Bird Person",
+	"status": "Alive",
+	"species": "Alien",
+	"type": "Astronaut",
+	"gender": "Male",
+	"location": "Birdplanet/Flipflap-12"
+	},
+	{
+	"id": 8,
+	"name": "Squanchy",
+	"status": "Alive",
+	"species": "Alien",
+	"type": "Cat-like anthropomorphic",
+	"gender": "Male",
+	"location": "Planet Squanch"
 	}
 ]
