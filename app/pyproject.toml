@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rick-and-morty-API"
+version = "0.1.0"
+description = "API for rick and morty"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+	{ name = "Hishamkhashman1", email = "hisham.khashman@gmail.com" },
+]
