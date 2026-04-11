@@ -31,17 +31,17 @@ uvicorn app.main:app --reload
 
 ---
 
-## 📡 Usage
+## Usage
 
 Once the server is running, open:
 
-👉 http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs
 
 This gives you interactive Swagger UI.
 
 ---
 
-## 📚 Endpoints
+##  Endpoints
 
 ### Get all characters
 
@@ -57,7 +57,7 @@ GET /characters/{character_id}
 
 ---
 
-## 🧠 Example
+## Example
 
 ```bash
 curl http://127.0.0.1:8000/characters/1
@@ -77,7 +77,7 @@ Response:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * FastAPI
 * Uvicorn
@@ -85,7 +85,7 @@ Response:
 
 ---
 
-## 📌 Notes
+## Notes
 
 * This is an MVP project focused on learning backend fundamentals.
 * Data is currently served from a local JSON file.
@@ -93,7 +93,7 @@ Response:
 
 ---
 
-## 📫 Contact
+## Contact
 
 Hisham Khashman
 📧 [hisham.khashman@gmail.com](mailto:hisham.khashman@gmail.com)
