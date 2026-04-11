@@ -10,6 +10,10 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 keywords = []
+dependencies = [
+	"fastapi",
+	"uvicorn",
+]
 authors = [
 	{ name = "Hishamkhashman1", email = "hisham.khashman@gmail.com" },
 ]
