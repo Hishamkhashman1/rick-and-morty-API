@@ -87,8 +87,8 @@ Response:
 
 ## Notes
 
-* This is an MVP project focused on learning backend fundamentals.
-* Data is currently served from a local JSON file.
+* This is an MVP project with enhancments in the works.
+* Data is currently served from a local JSON file, next improvements will include connecting to a database.
 * Future improvements will include filtering, pagination, additional resources, and deployment as a publicly accessible API.
 
 ---
