@@ -58,7 +58,7 @@
 	"name": "Bird Person",
 	"status": "Alive",
 	"species": "Alien",
-	"type": "Astronaut",
+	"type": "Bird Humanoid",
 	"gender": "Male",
 	"location": "Birdplanet/Flipflap-12"
 	},
@@ -70,5 +70,23 @@
 	"type": "Cat-like anthropomorphic",
 	"gender": "Male",
 	"location": "Planet Squanch"
-	}
+	},
+	{
+	"id":8,
+	"name": "Mr. Poopybuthole",
+	"status": "Alive",
+	"species": "Alien",
+	"type": "Sausage Fella",
+	"gender": "Male",
+	"location": "Mr. Poopybutthole's Planet"
+	},
+	{
+	"id": 9,
+	"name": "Uncle Slow",
+	"status": "Dead",
+	"species": "Alien",
+	"type": "Humanoid",
+	"gender": "Male",
+	"location": "Unkown"
+	}	
 ]
