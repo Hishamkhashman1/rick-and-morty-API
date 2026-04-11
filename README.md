@@ -67,11 +67,13 @@ Response:
 
 ```json
 {
-  "id": 1,
-  "name": "Rick Sanchez",
-  "status": "Alive",
-  "species": "Human",
-  "gender": "Male"
+    "id": 1,
+    "name": "Rick Sanchez",
+    "status": "Alive",
+    "species": "Human",
+    "type": "Legendary",
+    "gender": "Male",
+    "location": "Earth (C-137)"
 }
 ```
 
