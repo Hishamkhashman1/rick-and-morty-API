@@ -6,7 +6,7 @@ with open("/home/hisham/code/Hishamkhashman1/rick-and-morty-API/data/characters.
     data = json.load(f)
 
 @app.get("/")
-async dfe root():
+async def root():
     return {"Read the docs and enjoy": "wubalubadubdub"}
 
 
