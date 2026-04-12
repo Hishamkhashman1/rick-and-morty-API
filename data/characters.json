@@ -6,7 +6,7 @@
 	"species": "Human",
 	"type": "",
 	"gender": "Male",
-	"location": "Earth (C-137)"
+	"place of origin": "Earth (C-137)"
 	},
 	{
 	"id": 2,
@@ -15,7 +15,7 @@
 	"species": "Human",
 	"type": "",
 	"gender": "Male",
-	"location": "Earth (C-137)"
+	"place of origin": "Earth (C-137)"
 	},
 	{
 	"id": 3,
@@ -24,7 +24,7 @@
 	"species": "Human",
 	"type": "",
 	"gender": "Female",
-	"location": "Earth (C-137)"
+	"place of origin": "Earth (C-137)"
 	},
 	{
 	"id": 4,
@@ -33,7 +33,7 @@
 	"species": "Human",
 	"type": "",
 	"gender": "Female",
-	"location": "Earth (C-137)"
+	"place of origin": "Earth (C-137)"
 	},
 	{
 	"id": 5,
@@ -42,7 +42,7 @@
 	"species": "Human",
 	"type": "",
 	"gender": "Male",
-	"location": "Earth (C-137)"
+	"place of origin": "Earth (C-137)"
 	},
 	{
 	"id": 6,
@@ -51,7 +51,7 @@
 	"species": "Alien",
 	"type": "",
 	"gender": "Female",
-	"location": "Abadango"
+	"place of origin": "Abadango"
 	},
 	{
 	"id": 7,
@@ -60,7 +60,7 @@
 	"species": "Alien",
 	"type": "Bird Humanoid",
 	"gender": "Male",
-	"location": "Birdplanet/Flipflap-12"
+	"place of origin": "Birdplanet/Flipflap-12"
 	},
 	{
 	"id": 8,
@@ -69,7 +69,7 @@
 	"species": "Alien",
 	"type": "Cat-like anthropomorphic",
 	"gender": "Male",
-	"location": "Planet Squanch"
+	"place of origin": "Planet Squanch"
 	},
 	{
 	"id":8,
@@ -78,7 +78,7 @@
 	"species": "Alien",
 	"type": "Sausage Fella",
 	"gender": "Male",
-	"location": "Mr. Poopybutthole's Planet"
+	"place of origin": "Mr. Poopybutthole's Planet"
 	},
 	{
 	"id": 9,
@@ -87,7 +87,7 @@
 	"species": "Alien",
 	"type": "Humanoid",
 	"gender": "Male",
-	"location": "Unkown"
+	"place of origin": "Unkown"
 	},
 	{
 	"id": 10,
@@ -96,6 +96,6 @@
 	"species": "Gear Person",
 	"type": "",
 	"gender": "Male",
-	"location": "Gear World"
+	"place of origin": "Gear World"
 	}
 ]
