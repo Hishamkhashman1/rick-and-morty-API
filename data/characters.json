@@ -88,5 +88,14 @@
 	"type": "Humanoid",
 	"gender": "Male",
 	"location": "Unkown"
-	}	
+	},
+	{
+	"id": 10,
+	"name": "Revolio Clockberg, Jr.",
+	"status": "Alive",
+	"species": "Gear Person",
+	"type": "",
+	"gender": "Male",
+	"location": "Gear World"
+	}
 ]
