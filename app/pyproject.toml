@@ -13,6 +13,8 @@ keywords = []
 dependencies = [
 	"fastapi",
 	"uvicorn",
+	"sqlmodel",
+	"dotenv",
 ]
 authors = [
 	{ name = "Hishamkhashman1", email = "hisham.khashman@gmail.com" },
