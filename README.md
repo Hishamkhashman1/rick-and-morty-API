@@ -1,112 +1,88 @@
-#  Rick and Morty API
+# Rick and Morty API (MVP)
 
-A simple FastAPI-based API that provides information about characters from the show *Rick and Morty*.
+A reliable, deployed FastAPI MVP that serves Rick and Morty character data from a Postgres database.
 
----
+## What This MVP Does
 
-##  Getting Started
+- Serves character data over a clean JSON API
+- Supports listing all characters
+- Supports fetching a single character by ID
 
-### 1. Clone the repository
+## API Endpoints
 
-```bash
-git clone https://github.com/Hishamkhashman1/rick-and-morty-API.git
-cd rick-and-morty-API
-```
+- `GET /characters`
+- `GET /characters/{character_id}`
 
-### 2. Install dependencies
+## How to Use (End Users)
 
-Since this project uses `pyproject.toml`:
-
-```bash
-pip install .
-```
-
----
-
-### 3. Run the API
-
-```bash
-uvicorn app.main:app --reload
-```
-
----
-
-## Usage
-
-Once the server is running, open:
-
-http://127.0.0.1:8000/docs
-
-This gives you interactive Swagger UI.
-
-### Deployed App
-
-Base URL:
-
-https://rick-and-morty-api-9871cc72.fastapicloud.dev
+You can call the API directly over HTTPS. No auth required.
 
 Swagger UI:
-
 https://rick-and-morty-api-9871cc72.fastapicloud.dev/docs
 
----
-
-##  Endpoints
-
-### Get all characters
-
-```
-GET /characters
-```
-
-### Get character by ID
-
-```
-GET /characters/{character_id}
-```
-
----
-
-## Example
+### cURL
 
 ```bash
-curl http://127.0.0.1:8000/characters/1
+curl https://rick-and-morty-api-9871cc72.fastapicloud.dev/characters
+```
+
+```bash
+curl https://rick-and-morty-api-9871cc72.fastapicloud.dev/characters/1
+```
+
+### JavaScript (fetch)
+
+```js
+const res = await fetch("https://rick-and-morty-api-9871cc72.fastapicloud.dev/characters/1");
+const data = await res.json();
+console.log(data);
+```
+
+### Python (requests)
+
+```python
+import requests
+
+res = requests.get("https://rick-and-morty-api-9871cc72.fastapicloud.dev/characters/1")
+print(res.json())
+```
+
+## Example Response
+
+```bash
+curl https://rick-and-morty-api-9871cc72.fastapicloud.dev/characters/1
 ```
 
 Response:
 
 ```json
 {
-    "id": 1,
-    "name": "Rick Sanchez",
-    "status": "Alive",
-    "species": "Human",
-    "type": "Legendary",
-    "gender": "Male",
-    "location": "Earth (C-137)"
+  "id": 1,
+  "name": "Rick Sanchez",
+  "status": "Alive",
+  "species": "Human",
+  "type": "Legendary",
+  "gender": "Male",
+  "place_of_origin": "Earth (C-137)"
 }
 ```
 
----
-
 ## Tech Stack
 
-* FastAPI
-* Uvicorn
-* Python 3.8+
+- FastAPI
+- SQLModel
+- Uvicorn
+- Postgres
+- FastAPI Cloud
 
----
+## Roadmap
 
-## Notes
-
-* This is an MVP project with enhancments in the works.
-* Data is currently served from a local JSON file, next improvements will include connecting to a database.
-* Future improvements will include filtering, pagination, additional resources, and deployment as a publicly accessible API.
-
----
+- Pagination and filtering
+- More resources (episodes, locations)
+- Better error handling and validation
 
 ## Contact
 
 Hisham Khashman
-📧 [hisham.khashman@gmail.com](mailto:hisham.khashman@gmail.com)
-🌐 https://www.hishamkhashman.dev
+hisham.khashman@gmail.com
+https://www.hishamkhashman.dev
