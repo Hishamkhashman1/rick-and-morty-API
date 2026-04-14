@@ -39,6 +39,16 @@ http://127.0.0.1:8000/docs
 
 This gives you interactive Swagger UI.
 
+### Deployed App
+
+Base URL:
+
+https://rick-and-morty-api-9871cc72.fastapicloud.dev
+
+Swagger UI:
+
+https://rick-and-morty-api-9871cc72.fastapicloud.dev/docs
+
 ---
 
 ##  Endpoints
