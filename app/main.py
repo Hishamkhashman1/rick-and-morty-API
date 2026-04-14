@@ -17,7 +17,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"Read the docs and enjoy": "wubalubadubdub"}
+    return [{"Read the docs and enjoy": "wubalubadubdub"}, {"Get all the characters": "/characters"}]
 
 
 

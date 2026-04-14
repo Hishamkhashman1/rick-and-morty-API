@@ -100,6 +100,3 @@ Response:
 Hisham Khashman
 📧 [hisham.khashman@gmail.com](mailto:hisham.khashman@gmail.com)
 🌐 https://www.hishamkhashman.dev
-  
-    
-    

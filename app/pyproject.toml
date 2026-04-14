@@ -2,6 +2,9 @@
 requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
+[tool.fastapi]
+entrypoint = "app.main:app"
+
 [project]
 name = "rick-and-morty-API"
 version = "0.1.0"
