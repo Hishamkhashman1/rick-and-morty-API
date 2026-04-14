@@ -14,7 +14,7 @@ requires-python = ">=3.8"
 license = "MIT"
 keywords = []
 dependencies = [
-	"fastapi",
+	"fastapi[standard]",
 	"uvicorn",
 	"sqlmodel",
 	"dotenv",
