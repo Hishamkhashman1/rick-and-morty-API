@@ -17,7 +17,8 @@ dependencies = [
 	"fastapi[standard]",
 	"uvicorn",
 	"sqlmodel",
-	"dotenv",
+	"python-dotenv",
+  "psycopg2",
 ]
 authors = [
 	{ name = "Hishamkhashman1", email = "hisham.khashman@gmail.com" },

@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from sqlmodel import Session, create_engine, select
 from app.models import Character
 
@@ -22,13 +22,15 @@ async def root():
 
 
 @app.get("/characters/{character_id}")
-async def get_characters(character_id: int):
-    with session(engine) as session:
-        character = session.exec(select(Character).where(Character.id == character_id)).one()
+async def get_character(character_id: int):
+    with Session(engine) as session:
+        character = session.exec(select(Character).where(Character.id == character_id)).first()
+    if character is None:
+        raise HTTPException(status_code=404, detail="Character not found")
     return character
 
 @app.get("/characters")
-async def get_characters():
+async def list_characters():
     with Session(engine) as session:
         characters = session.exec(select(Character)).all()
     return characters
