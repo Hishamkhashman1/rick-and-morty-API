@@ -17,8 +17,9 @@ A reliable, deployed FastAPI MVP that serves Rick and Morty character data from 
 
 You can call the API directly over HTTPS. No auth required.
 
-Swagger UI:
-https://rick-and-morty-api-9871cc72.fastapicloud.dev/docs
+https://rick-and-morty-api-9871cc72.fastapicloud.dev/
+
+use the `/characters` and `/characters/{character_id}` endpoints
 
 ### cURL
 
