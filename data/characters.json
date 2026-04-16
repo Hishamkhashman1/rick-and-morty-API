@@ -97,5 +97,14 @@
 	"type": "",
 	"gender": "Male",
 	"place of origin": "Gear World"
+	},
+	{
+	"id": 12,
+	"name": "Tony",
+	"status": "Dead",
+	"species": "Human",
+	"type": "",
+	"gender": "Male",
+	"place of origin": "Unknown"
 	}
 ]
